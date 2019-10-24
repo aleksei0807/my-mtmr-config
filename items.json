@@ -188,6 +188,12 @@
         "width": 38
     },
     {
+        "type": "mute",
+        "bordered": true,
+        "align": "right",
+        "width": 38
+    },
+    {
         "type": "brightnessDown",
         "width": 38,
         "bordered": true,
@@ -248,7 +254,7 @@
     },
     {
         "type": "timeButton",
-        "formatTemplate": "E, dd MMM. HH:mm",
+        "formatTemplate": "dd MMM HH:mm",
         "align": "right",
         "bordered": false,
         "longAction": "shellScript",
